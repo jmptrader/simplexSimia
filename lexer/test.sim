@@ -1,0 +1,22 @@
+sim test = 10;
+sim hello = 43110;
+
+sim tot = fnc(x, y) {
+  x + y;
+};
+
+sim result = tot(test, hello);
+
+!-/*5;
+1 < 10 > 5;
+
+sim simia = fnc(a, b) {
+  if (a * b < a*a - b*b) {
+    return true;
+  }else {
+    return false;
+  }
+}
+
+if (simia(1,2) != true) {}
+if (simia(1,2) == true) {}
